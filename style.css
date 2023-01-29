@@ -1,0 +1,40 @@
+.load-more.is-hidden {
+    display: none;
+}
+
+.backdrop {
+    position: fixed;
+    background-color: rgba(113, 146, 174, 0.9);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.backdrop.is-hidden {
+    display: none;
+}
+
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(200, 216, 210);
+    display: flex;
+}
+
+.btn-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.modal-img {
+    object-fit: cover;
+}
